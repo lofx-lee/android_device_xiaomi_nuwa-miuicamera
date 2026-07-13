@@ -1,0 +1,4 @@
+# Camera
+#attribute hal_quickcamera;
+#attribute hal_quickcamera_client;
+#attribute hal_quickcamera_server;
