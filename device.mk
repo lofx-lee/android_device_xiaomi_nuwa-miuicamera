@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/vermeer-miuicamera/vermeer-miuicamera-vendor.mk)
+$(call inherit-product, vendor/xiaomi/nuwa-miuicamera/nuwa-miuicamera-vendor.mk)
 
 # Public libraries
 PRODUCT_COPY_FILES += \
