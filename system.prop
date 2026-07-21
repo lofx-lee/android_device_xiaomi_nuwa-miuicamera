@@ -9,3 +9,9 @@ ro.miui.notch=1
 ro.miui.build.region=global
 ro.miui.ui.version.name=V816
 ro.miui.ui.version.code=816
+
+# Device Capabilities
+ro.product.mod_device=nuwa
+ro.hardware.camera=xiaomi
+ro.product.brand=xiaomi
+ro.product.manufacturer=xiaomi
