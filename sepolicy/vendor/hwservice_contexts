@@ -1,0 +1,3 @@
+# Camera
+vendor.xiaomi.hardware.bgservice::IBGService u:object_r:vendor_hal_camerapostproc_xiaomi_hwservice:s0
+vendor.xiaomi.hardware.quickcamera::IQuickCameraService u:object_r:hal_quickcamera_hwservice:s0
