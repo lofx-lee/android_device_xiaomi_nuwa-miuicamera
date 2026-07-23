@@ -1,14 +1,14 @@
 From d2c7b45dd0ce38d01494cad5f1fb9f4a9802a502 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
 Date: Thu, 23 Jul 2026 12:07:16 +0800
-Subject: [PATCH 3/7] Load obfuscated resources sanely
+Subject: [PATCH 3/8] Load obfuscated resources sanely
 
 ---
  smali/v8/a.smali | 18 +++++++++++++++++-
  1 file changed, 17 insertions(+), 1 deletion(-)
 
 diff --git a/smali/v8/a.smali b/smali/v8/a.smali
-index 8879d21fd..1c886c40c 100644
+index 8879d21f..1c886c40 100644
 --- a/smali/v8/a.smali
 +++ b/smali/v8/a.smali
 @@ -166,7 +166,7 @@

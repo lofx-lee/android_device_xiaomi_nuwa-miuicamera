@@ -1,7 +1,7 @@
 From 3d978d280ef429f3c32d938f7a8203c66fa313bb Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
 Date: Fri, 17 Jul 2026 21:08:19 +0800
-Subject: [PATCH 7/7] Fix shortcut icons
+Subject: [PATCH 7/8] Fix shortcut icons
 
 ---
  .../shortcut_capture_mode.webp                   | Bin 1806 -> 0 bytes
@@ -365,7 +365,7 @@ zyKM$s$N#%U-=JuK#q#KX<5Um7gu&Lk4E(882Tj=O`S=xtOcjLCIMv8~5CE1_VTNxj
 si*x$|pAe`{zv7br{`7<Y-g$rjyt(UOO5Vvyh=U1Ks7%U$>;M1&0Bt)bKmY&$
 
 diff --git a/res/drawable/shortcut_capture_mode.xml b/res/drawable/shortcut_capture_mode.xml
-index eccd7defb..4bbd83dc8 100644
+index eccd7def..4bbd83dc 100644
 --- a/res/drawable/shortcut_capture_mode.xml
 +++ b/res/drawable/shortcut_capture_mode.xml
 @@ -1,6 +1,5 @@
@@ -377,7 +377,7 @@ index eccd7defb..4bbd83dc8 100644
  </vector>
 \ No newline at end of file
 diff --git a/res/drawable/shortcut_document_mode.xml b/res/drawable/shortcut_document_mode.xml
-index 040e92cb8..a3376fa91 100644
+index 040e92cb..a3376fa9 100644
 --- a/res/drawable/shortcut_document_mode.xml
 +++ b/res/drawable/shortcut_document_mode.xml
 @@ -1,6 +1,5 @@
@@ -389,7 +389,7 @@ index 040e92cb8..a3376fa91 100644
  </vector>
 \ No newline at end of file
 diff --git a/res/drawable/shortcut_professional_mode.xml b/res/drawable/shortcut_professional_mode.xml
-index e65157e6d..63592162d 100644
+index e65157e6..63592162 100644
 --- a/res/drawable/shortcut_professional_mode.xml
 +++ b/res/drawable/shortcut_professional_mode.xml
 @@ -1,6 +1,5 @@
@@ -401,7 +401,7 @@ index e65157e6d..63592162d 100644
  </vector>
 \ No newline at end of file
 diff --git a/res/drawable/shortcut_video_mode.xml b/res/drawable/shortcut_video_mode.xml
-index a2e677508..b87eb8737 100644
+index a2e67750..b87eb873 100644
 --- a/res/drawable/shortcut_video_mode.xml
 +++ b/res/drawable/shortcut_video_mode.xml
 @@ -1,6 +1,5 @@

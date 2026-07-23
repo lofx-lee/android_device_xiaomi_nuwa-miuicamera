@@ -1,7 +1,7 @@
 From 81c874118d818f1b7f63f0c8f443ca0fd5cae8ed Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
 Date: Thu, 23 Jul 2026 12:00:26 +0800
-Subject: [PATCH 1/7] Assume that mod_device is global
+Subject: [PATCH 1/8] Assume that mod_device is global
 
 * otherwise, the app tries to start a custom permissions dialog which has dependencies on HyperOS Security Center app
 ---
@@ -9,7 +9,7 @@ Subject: [PATCH 1/7] Assume that mod_device is global
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/smali/u7/c.smali b/smali/u7/c.smali
-index 9c8dca4b7..93d2b8690 100644
+index 9c8dca4b..93d2b869 100644
 --- a/smali/u7/c.smali
 +++ b/smali/u7/c.smali
 @@ -233,7 +233,7 @@

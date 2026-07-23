@@ -1,7 +1,7 @@
 From 595a4677d98af6407d4e2845291b3047d0601e91 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
 Date: Thu, 23 Jul 2026 12:06:40 +0800
-Subject: [PATCH 2/7] Remove Leica permissions limited popup
+Subject: [PATCH 2/8] Remove Leica permissions limited popup
 
 * removed static method invocation and constant definition
 ---
@@ -9,7 +9,7 @@ Subject: [PATCH 2/7] Remove Leica permissions limited popup
  1 file changed, 3 deletions(-)
 
 diff --git a/smali/com/android/camera/ActivityBase$c.smali b/smali/com/android/camera/ActivityBase$c.smali
-index b4a0be86e..decd597f2 100644
+index b4a0be86..decd597f 100644
 --- a/smali/com/android/camera/ActivityBase$c.smali
 +++ b/smali/com/android/camera/ActivityBase$c.smali
 @@ -79,9 +79,6 @@

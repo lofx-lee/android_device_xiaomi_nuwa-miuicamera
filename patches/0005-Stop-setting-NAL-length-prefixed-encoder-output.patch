@@ -1,14 +1,14 @@
 From a6959f886f5426618d36fd21b4718ce6dea0e295 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
 Date: Thu, 23 Jul 2026 12:08:17 +0800
-Subject: [PATCH 5/7] Stop setting NAL length-prefixed encoder output
+Subject: [PATCH 5/8] Stop setting NAL length-prefixed encoder output
 
 ---
  smali_classes4/xb/e.smali | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/smali_classes4/xb/e.smali b/smali_classes4/xb/e.smali
-index deaddf931..e38a4a2f0 100644
+index deaddf93..e38a4a2f 100644
 --- a/smali_classes4/xb/e.smali
 +++ b/smali_classes4/xb/e.smali
 @@ -713,7 +713,7 @@
