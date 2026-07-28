@@ -1,26 +1,27 @@
-From f194d1ea85a96dcf99bd952933a8be04bf64d296 Mon Sep 17 00:00:00 2001
-From: AdarshGrewal <adarshgrewal@gmail.com>
-Date: Wed, 3 Jun 2026 14:00:15 +0530
-Subject: [PATCH 2/7] Remove Leica permissions limited popup
+From f111643bf7c2ad758d617ed2b5093255d58b17e6 Mon Sep 17 00:00:00 2001
+From: lofx-lee <mutongbaobao@gmail.com>
+Date: Thu, 23 Jul 2026 12:06:40 +0800
+Subject: [PATCH 2/8] Remove Leica permissions limited popup
 
+* removed static method invocation and constant definition
 ---
  smali/com/android/camera/ActivityBase$c.smali | 3 ---
  1 file changed, 3 deletions(-)
 
 diff --git a/smali/com/android/camera/ActivityBase$c.smali b/smali/com/android/camera/ActivityBase$c.smali
-index 02ec5df8..65a7cea9 100644
+index b4a0be86..decd597f 100644
 --- a/smali/com/android/camera/ActivityBase$c.smali
 +++ b/smali/com/android/camera/ActivityBase$c.smali
 @@ -79,9 +79,6 @@
      goto/16 :goto_1
  
      :pswitch_1
--    const p1, 0x7f140af4
+-    const p1, 0x7f140af5
 -
 -    invoke-static {p0, p1, v6}, LA/g4;->c(Landroid/content/Context;IZ)V
  
      goto/16 :goto_1
  
 -- 
-2.54.0
+2.53.0
 

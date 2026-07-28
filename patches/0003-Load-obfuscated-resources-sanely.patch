@@ -1,16 +1,16 @@
-From 550d08d4c286ce629fea4a96603c7a08bc5115d9 Mon Sep 17 00:00:00 2001
-From: AdarshGrewal <adarshgrewal@gmail.com>
-Date: Wed, 3 Jun 2026 16:42:54 +0530
-Subject: [PATCH 3/7] Load obfuscated resources sanely
+From e179f08f781a6e39dfe177cd1f5995dd339c3ce7 Mon Sep 17 00:00:00 2001
+From: lofx-lee <mutongbaobao@gmail.com>
+Date: Thu, 23 Jul 2026 12:07:16 +0800
+Subject: [PATCH 3/8] Load obfuscated resources sanely
 
 ---
- smali_classes4/F8/a.smali | 18 +++++++++++++++++-
+ smali/v8/a.smali | 18 +++++++++++++++++-
  1 file changed, 17 insertions(+), 1 deletion(-)
 
-diff --git a/smali_classes4/F8/a.smali b/smali_classes4/F8/a.smali
-index 47d0fcf5..c3ae57c0 100644
---- a/smali_classes4/F8/a.smali
-+++ b/smali_classes4/F8/a.smali
+diff --git a/smali/v8/a.smali b/smali/v8/a.smali
+index 8879d21f..1c886c40 100644
+--- a/smali/v8/a.smali
++++ b/smali/v8/a.smali
 @@ -166,7 +166,7 @@
  .end method
  
@@ -41,25 +41,23 @@ index 47d0fcf5..c3ae57c0 100644
 +    .catch Ljava/io/FileNotFoundException; {:try_start_9 .. :try_end_9} :catch_9
  
      :try_start_0
-     invoke-static {p2}, Lkotlin/jvm/internal/l;->c(Ljava/lang/Object;)V
-@@ -311,6 +316,17 @@
+     invoke-static {p2}, Lkotlin/jvm/internal/k;->c(Ljava/lang/Object;)V
+@@ -339,4 +344,15 @@
+     invoke-static {p2, p0}, LBg/n;->l(Ljava/io/Closeable;Ljava/lang/Throwable;)V
  
-     goto :goto_3
- 
+     throw p1
++
 +    :catch_9
 +    move-exception p2
 +
 +    const/4 p2, 0x0
-+
++ 
 +    invoke-static {p0, v5, p2}, Landroidx/core/content/res/ResourcesCompat;->getDrawable(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-+
++ 
 +    move-result-object p0
-+
-+    return-object p0
-+
-     :goto_2
-     :try_start_3
-     throw p0
++ 
++    return-object p0    
+ .end method
 -- 
-2.54.0
+2.53.0
 

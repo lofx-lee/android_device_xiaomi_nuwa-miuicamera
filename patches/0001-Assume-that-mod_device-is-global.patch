@@ -1,0 +1,26 @@
+From 11660c169a8c6563747e959e698e5d1b3ae5783a Mon Sep 17 00:00:00 2001
+From: lofx-lee <mutongbaobao@gmail.com>
+Date: Thu, 23 Jul 2026 12:00:26 +0800
+Subject: [PATCH 1/8] Assume that mod_device is global
+
+* otherwise, the app tries to start a custom permissions dialog which has dependencies on HyperOS Security Center app
+---
+ smali/u7/c.smali | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali/u7/c.smali b/smali/u7/c.smali
+index 9c8dca4b..93d2b869 100644
+--- a/smali/u7/c.smali
++++ b/smali/u7/c.smali
+@@ -233,7 +233,7 @@
+ 
+     invoke-virtual {v0, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+ 
+-    move-result v0
++    const/4 v0, 0x1
+ 
+     sput-boolean v0, Lu7/c;->m:Z
+ 
+-- 
+2.53.0
+
