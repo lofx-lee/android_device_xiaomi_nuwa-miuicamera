@@ -1,0 +1,26 @@
+From 21ce381a2114b360137a68bb69394d61ef5ed640 Mon Sep 17 00:00:00 2001
+From: lofx-lee <mutongbaobao@gmail.com>
+Date: Wed, 29 Jul 2026 10:31:57 +0800
+Subject: [PATCH 1/8] Assume that mod_device is global
+
+* Otherwise the app thinks we are running on a random device
+---
+ smali/u7/c.smali | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/smali/u7/c.smali b/smali/u7/c.smali
+index 9c8dca4b..93d2b869 100644
+--- a/smali/u7/c.smali
++++ b/smali/u7/c.smali
+@@ -233,7 +233,7 @@
+ 
+     invoke-virtual {v0, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+ 
+-    move-result v0
++    const/4 v0, 0x1
+ 
+     sput-boolean v0, Lu7/c;->m:Z
+ 
+-- 
+2.53.0
+
