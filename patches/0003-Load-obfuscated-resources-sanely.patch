@@ -1,6 +1,6 @@
-From e179f08f781a6e39dfe177cd1f5995dd339c3ce7 Mon Sep 17 00:00:00 2001
+From beb6b30e6bb5ff72527150ff1b8bc8b00e09d1b3 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
-Date: Thu, 23 Jul 2026 12:07:16 +0800
+Date: Fri, 18 Sep 2026 17:57:12 +0800
 Subject: [PATCH 3/8] Load obfuscated resources sanely
 
 ---
@@ -8,7 +8,7 @@ Subject: [PATCH 3/8] Load obfuscated resources sanely
  1 file changed, 17 insertions(+), 1 deletion(-)
 
 diff --git a/smali/v8/a.smali b/smali/v8/a.smali
-index 8879d21f..1c886c40 100644
+index 0354537..43fca9e 100644
 --- a/smali/v8/a.smali
 +++ b/smali/v8/a.smali
 @@ -166,7 +166,7 @@
@@ -43,7 +43,7 @@ index 8879d21f..1c886c40 100644
      :try_start_0
      invoke-static {p2}, Lkotlin/jvm/internal/k;->c(Ljava/lang/Object;)V
 @@ -339,4 +344,15 @@
-     invoke-static {p2, p0}, LBg/n;->l(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+     invoke-static {p2, p0}, LA/Q2;->f(Ljava/io/Closeable;Ljava/lang/Throwable;)V
  
      throw p1
 +
@@ -51,13 +51,13 @@ index 8879d21f..1c886c40 100644
 +    move-exception p2
 +
 +    const/4 p2, 0x0
-+ 
++
 +    invoke-static {p0, v5, p2}, Landroidx/core/content/res/ResourcesCompat;->getDrawable(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-+ 
++
 +    move-result-object p0
-+ 
-+    return-object p0    
++
++    return-object p0
  .end method
 -- 
-2.53.0
+2.43.0
 

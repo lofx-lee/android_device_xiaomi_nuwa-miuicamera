@@ -1,6 +1,6 @@
-From 896b50c601b305fcfd88b42436c3f86d567c3a7b Mon Sep 17 00:00:00 2001
+From a8c940c7f5b51d5cb7e5debe75687f71b8e94325 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
-Date: Fri, 17 Jul 2026 21:00:07 +0800
+Date: Fri, 18 Sep 2026 17:57:13 +0800
 Subject: [PATCH 6/8] Revert icon to cupid V14.0.2.0.TLCMICM
 
 ---
@@ -20,7 +20,7 @@ Subject: [PATCH 6/8] Revert icon to cupid V14.0.2.0.TLCMICM
 
 diff --git a/res/mipmap-anydpi-v26/etk.xml b/res/mipmap-anydpi-v26/etk.xml
 new file mode 100644
-index 00000000..dac3b3f2
+index 0000000..dac3b3f
 --- /dev/null
 +++ b/res/mipmap-anydpi-v26/etk.xml
 @@ -0,0 +1,5 @@
@@ -10276,5 +10276,5 @@ ze=XW)V`UzsK4@lYT4btTf~MTr(|`8?)|5HbBJTVD{{f6=TG!9qY%%}<002ovPDHLk
 FV1oWJU>5)Y
 
 -- 
-2.53.0
+2.43.0
 

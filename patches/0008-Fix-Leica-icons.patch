@@ -1,6 +1,6 @@
-From 27c128e762e81575d8b434e80abe4f1a0f768cde Mon Sep 17 00:00:00 2001
+From 1e1c051e81840f675a89bd1dd7df0e12adf7e039 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
-Date: Thu, 23 Jul 2026 18:04:16 +0800
+Date: Fri, 18 Sep 2026 17:57:13 +0800
 Subject: [PATCH 8/8] Fix Leica icons
 
 ---
@@ -16,8 +16,7 @@ Subject: [PATCH 8/8] Fix Leica icons
  res/drawable/ic_cvtype_item_other_top_menu.xml  | 12 +++++++++---
  res/drawable/ic_cvtype_item_shadow_1.xml        |  6 ++++++
  res/drawable/ic_cvtype_item_shadow_2.xml        |  7 +++++++
- res/values/public.xml                           |  5 +++++
- 13 files changed, 112 insertions(+), 24 deletions(-)
+ 12 files changed, 107 insertions(+), 24 deletions(-)
  create mode 100644 res/drawable/ic_cvtype_item_1.xml
  create mode 100644 res/drawable/ic_cvtype_item_2.xml
  create mode 100644 res/drawable/ic_cvtype_item_shadow_1.xml
@@ -25,7 +24,7 @@ Subject: [PATCH 8/8] Fix Leica icons
 
 diff --git a/res/drawable/ic_cvtype_item_1.xml b/res/drawable/ic_cvtype_item_1.xml
 new file mode 100644
-index 00000000..c8358bcd
+index 0000000..c8358bc
 --- /dev/null
 +++ b/res/drawable/ic_cvtype_item_1.xml
 @@ -0,0 +1,10 @@
@@ -41,7 +40,7 @@ index 00000000..c8358bcd
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_1_mm.xml b/res/drawable/ic_cvtype_item_1_mm.xml
-index 370888cc..a60afa5a 100644
+index 370888c..a60afa5 100644
 --- a/res/drawable/ic_cvtype_item_1_mm.xml
 +++ b/res/drawable/ic_cvtype_item_1_mm.xml
 @@ -1,5 +1,12 @@
@@ -63,7 +62,7 @@ index 370888cc..a60afa5a 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_1_top_mm.xml b/res/drawable/ic_cvtype_item_1_top_mm.xml
-index 370888cc..04067fd5 100644
+index 370888c..04067fd 100644
 --- a/res/drawable/ic_cvtype_item_1_top_mm.xml
 +++ b/res/drawable/ic_cvtype_item_1_top_mm.xml
 @@ -1,5 +1,10 @@
@@ -84,7 +83,7 @@ index 370888cc..04067fd5 100644
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_2.xml b/res/drawable/ic_cvtype_item_2.xml
 new file mode 100644
-index 00000000..d1ca0a18
+index 0000000..d1ca0a1
 --- /dev/null
 +++ b/res/drawable/ic_cvtype_item_2.xml
 @@ -0,0 +1,10 @@
@@ -100,7 +99,7 @@ index 00000000..d1ca0a18
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_2_mm.xml b/res/drawable/ic_cvtype_item_2_mm.xml
-index 370888cc..3c588eb6 100644
+index 370888c..3c588eb 100644
 --- a/res/drawable/ic_cvtype_item_2_mm.xml
 +++ b/res/drawable/ic_cvtype_item_2_mm.xml
 @@ -1,5 +1,12 @@
@@ -122,7 +121,7 @@ index 370888cc..3c588eb6 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_2_top_mm.xml b/res/drawable/ic_cvtype_item_2_top_mm.xml
-index 370888cc..1650987b 100644
+index 370888c..1650987 100644
 --- a/res/drawable/ic_cvtype_item_2_top_mm.xml
 +++ b/res/drawable/ic_cvtype_item_2_top_mm.xml
 @@ -1,5 +1,10 @@
@@ -142,7 +141,7 @@ index 370888cc..1650987b 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_master.xml b/res/drawable/ic_cvtype_item_master.xml
-index 370888cc..eb6266b6 100644
+index 370888c..eb6266b 100644
 --- a/res/drawable/ic_cvtype_item_master.xml
 +++ b/res/drawable/ic_cvtype_item_master.xml
 @@ -1,5 +1,12 @@
@@ -164,7 +163,7 @@ index 370888cc..eb6266b6 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_master_top_menu.xml b/res/drawable/ic_cvtype_item_master_top_menu.xml
-index 370888cc..eb6266b6 100644
+index 370888c..eb6266b 100644
 --- a/res/drawable/ic_cvtype_item_master_top_menu.xml
 +++ b/res/drawable/ic_cvtype_item_master_top_menu.xml
 @@ -1,5 +1,12 @@
@@ -186,7 +185,7 @@ index 370888cc..eb6266b6 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_other.xml b/res/drawable/ic_cvtype_item_other.xml
-index 370888cc..3b34e95f 100644
+index 370888c..3b34e95 100644
 --- a/res/drawable/ic_cvtype_item_other.xml
 +++ b/res/drawable/ic_cvtype_item_other.xml
 @@ -1,5 +1,11 @@
@@ -207,7 +206,7 @@ index 370888cc..3b34e95f 100644
 +</vector>
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_other_top_menu.xml b/res/drawable/ic_cvtype_item_other_top_menu.xml
-index 370888cc..3b34e95f 100644
+index 370888c..3b34e95 100644
 --- a/res/drawable/ic_cvtype_item_other_top_menu.xml
 +++ b/res/drawable/ic_cvtype_item_other_top_menu.xml
 @@ -1,5 +1,11 @@
@@ -229,7 +228,7 @@ index 370888cc..3b34e95f 100644
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_shadow_1.xml b/res/drawable/ic_cvtype_item_shadow_1.xml
 new file mode 100644
-index 00000000..5feefc12
+index 0000000..5feefc1
 --- /dev/null
 +++ b/res/drawable/ic_cvtype_item_shadow_1.xml
 @@ -0,0 +1,6 @@
@@ -242,7 +241,7 @@ index 00000000..5feefc12
 \ No newline at end of file
 diff --git a/res/drawable/ic_cvtype_item_shadow_2.xml b/res/drawable/ic_cvtype_item_shadow_2.xml
 new file mode 100644
-index 00000000..7750a64a
+index 0000000..7750a64
 --- /dev/null
 +++ b/res/drawable/ic_cvtype_item_shadow_2.xml
 @@ -0,0 +1,7 @@
@@ -254,43 +253,6 @@ index 00000000..7750a64a
 +    <path android:fillColor="#ff000000" android:pathData="M42.904,48.049V58.673H46.422V48.049H63.154V51.853C63.783,50.631 64.675,49.632 65.836,48.921C67.05,48.172 68.419,47.825 69.876,47.825C71.151,47.825 72.361,48.119 73.452,48.749C74.522,49.366 75.37,50.228 75.965,51.31L76.418,52.135L77.793,48.049H83.185L88.817,64.417H82.561L81.329,60.753H79.736L78.536,64.417H72.287L72.355,64.215C71.555,64.504 70.707,64.641 69.828,64.641C68.375,64.641 67.013,64.279 65.802,63.517L65.793,63.511C64.65,62.783 63.771,61.783 63.154,60.567V64.417H37V48.049H42.904ZM56.342,62.417V60.673H50.326V56.913H55.83V55.169H50.326V51.809H56.134V50.049H48.422V62.417H56.342ZM74.169,60.265C74.184,60.241 74.198,60.217 74.212,60.193L72.628,59.249C72.621,59.259 72.614,59.269 72.607,59.279C72.304,59.731 71.929,60.094 71.485,60.37C71.482,60.371 71.48,60.373 71.478,60.374C71.445,60.394 71.413,60.414 71.38,60.433C70.883,60.718 70.366,60.862 69.828,60.864C69.822,60.865 69.817,60.865 69.812,60.865C69.097,60.865 68.462,60.667 67.908,60.273C67.896,60.264 67.885,60.256 67.873,60.247C67.87,60.245 67.868,60.243 67.865,60.241C67.356,59.857 66.953,59.346 66.655,58.705C66.654,58.703 66.653,58.7 66.652,58.698C66.638,58.668 66.625,58.639 66.612,58.609C66.302,57.894 66.148,57.083 66.148,56.177C66.148,55.281 66.302,54.486 66.612,53.793C66.621,53.772 66.63,53.752 66.639,53.733C66.64,53.73 66.641,53.727 66.643,53.724C66.94,53.085 67.344,52.581 67.856,52.213C67.858,52.211 67.86,52.21 67.862,52.209C67.877,52.198 67.892,52.187 67.908,52.177C68.462,51.793 69.097,51.601 69.812,51.601C69.833,51.601 69.854,51.601 69.876,51.601C70.407,51.612 70.919,51.756 71.412,52.033C71.448,52.053 71.484,52.074 71.519,52.096C71.967,52.369 72.324,52.725 72.59,53.164C72.597,53.176 72.604,53.188 72.612,53.201L74.212,52.273C74.21,52.27 74.209,52.267 74.207,52.264C74.172,52.2 74.135,52.137 74.098,52.076C73.775,51.548 73.362,51.104 72.861,50.744C72.73,50.651 72.594,50.563 72.452,50.481C72.41,50.456 72.367,50.433 72.325,50.41C71.599,50.02 70.782,49.825 69.876,49.825C69.854,49.825 69.833,49.825 69.812,49.825C68.707,49.835 67.731,50.101 66.884,50.625C66.872,50.632 66.86,50.639 66.848,50.646C66.012,51.168 65.357,51.907 64.884,52.865C64.863,52.908 64.842,52.951 64.822,52.994C64.394,53.924 64.18,54.984 64.18,56.177C64.18,57.376 64.389,58.447 64.808,59.389C64.81,59.393 64.811,59.396 64.813,59.399C64.836,59.451 64.859,59.502 64.884,59.553C65.341,60.499 65.981,61.242 66.804,61.783C66.81,61.787 66.817,61.792 66.824,61.796C66.838,61.806 66.853,61.815 66.868,61.825C67.728,62.366 68.709,62.638 69.812,62.641C69.817,62.641 69.822,62.641 69.828,62.641C70.748,62.641 71.576,62.444 72.31,62.052C72.341,62.035 72.373,62.018 72.404,62.001C72.561,61.911 72.711,61.815 72.854,61.712C73.022,61.591 73.18,61.46 73.329,61.32C73.626,61.041 73.886,60.723 74.107,60.368C74.128,60.334 74.149,60.3 74.169,60.265ZM68.445,57.809C68.627,58.221 68.845,58.478 69.077,58.65C69.273,58.787 69.496,58.865 69.812,58.865C69.984,58.865 70.165,58.824 70.383,58.698C70.603,58.572 70.793,58.398 70.958,58.147L72.01,56.552L74.445,58.003L75.929,53.588L71.894,55.929L70.887,54.213C70.784,54.038 70.645,53.896 70.431,53.776C70.2,53.646 70.002,53.601 69.812,53.601C69.478,53.601 69.246,53.683 69.046,53.821C68.829,53.971 68.618,54.205 68.438,54.607C68.262,55.002 68.148,55.511 68.148,56.177C68.148,56.852 68.262,57.384 68.445,57.809ZM81.758,50.049H79.23L75.07,62.417H77.086L78.286,58.753H82.766L83.998,62.417H86.014L81.758,50.049ZM82.158,56.961H78.878L80.446,52.193H80.542L82.158,56.961ZM40.904,60.673V50.049H39V62.417H46.84V60.673H40.904ZM61.154,62.417V50.049H59.25V62.417H61.154Z" android:fillAlpha="0.2" android:fillType="evenOdd" />
 +</vector>
 \ No newline at end of file
-diff --git a/res/values/public.xml b/res/values/public.xml
-index d9d031be..9db71d53 100644
---- a/res/values/public.xml
-+++ b/res/values/public.xml
-@@ -8707,6 +8707,7 @@
-     <public type="drawable" name="$miuix_preference_btn_radio_arrow_on_dark__1" id="0x7f080066" />
-     <public type="drawable" name="$miuix_preference_btn_radio_arrow_on_light__0" id="0x7f080067" />
-     <public type="drawable" name="$miuix_preference_btn_radio_arrow_on_light__1" id="0x7f080068" />
-+    <public type="drawable" name="ic_cvtype_item_1" id="0x7f080069" />
-     <public type="drawable" name="$mode_icon_doc_coast__0" id="0x7f08006a" />
-     <public type="drawable" name="$mtrl_checkbox_button_checked_unchecked__0" id="0x7f08006b" />
-     <public type="drawable" name="$mtrl_checkbox_button_checked_unchecked__1" id="0x7f08006c" />
-@@ -8755,6 +8756,7 @@
-     <public type="drawable" name="abc_ic_go_search_api_material" id="0x7f0800a0" />
-     <public type="drawable" name="abc_ic_menu_copy_mtrl_am_alpha" id="0x7f0800a1" />
-     <public type="drawable" name="abc_ic_menu_cut_mtrl_alpha" id="0x7f0800a2" />
-+    <public type="drawable" name="ic_cvtype_item_2" id="0x7f0800a3" />
-     <public type="drawable" name="abc_ic_menu_paste_mtrl_am_alpha" id="0x7f0800a4" />
-     <public type="drawable" name="abc_ic_menu_selectall_mtrl_alpha" id="0x7f0800a5" />
-     <public type="drawable" name="abc_ic_menu_share_mtrl_alpha" id="0x7f0800a6" />
-@@ -8786,6 +8788,8 @@
-     <public type="drawable" name="avd_show_password" id="0x7f0800e6" />
-     <public type="drawable" name="avd_true_colour_logo" id="0x7f0800e7" />
-     <public type="drawable" name="avd_video_cclock_logo" id="0x7f0800e8" />
-+    <public type="drawable" name="ic_cvtype_item_shadow_1" id="0x7f0800ff" />
-+    <public type="drawable" name="ic_cvtype_item_shadow_2" id="0x7f080100" />
-     <public type="drawable" name="bg_anime_arrow_view" id="0x7f080102" />
-     <public type="drawable" name="bg_beautylens_indicator_no_stroke" id="0x7f080103" />
-     <public type="drawable" name="bg_btn_mimoji_edit_black" id="0x7f080107" />
-@@ -15087,6 +15091,7 @@
-     <public type="menu" name="eth" id="0x7f100000" />
-     <public type="menu" name="eti" id="0x7f100001" />
-     <public type="menu" name="etj" id="0x7f100002" />
-+    <public type="mipmap" name="etk_fg" id="0x7f110001" />
-     <public type="mipmap" name="etk" id="0x7f110000" />
-     <public type="plurals" name="etl" id="0x7f12000a" />
-     <public type="plurals" name="etm" id="0x7f12000b" />
 -- 
-2.53.0
+2.43.0
 

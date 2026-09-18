@@ -1,6 +1,6 @@
-From b9cd46db85e6b79839eaf53052bd38831ea5bbde Mon Sep 17 00:00:00 2001
+From 321e72496bc40013f4fc09dae6320489766c1090 Mon Sep 17 00:00:00 2001
 From: lofx-lee <mutongbaobao@gmail.com>
-Date: Thu, 23 Jul 2026 12:07:53 +0800
+Date: Fri, 18 Sep 2026 17:57:12 +0800
 Subject: [PATCH 4/8] Stub out call to jcodec MP4 post-processing
 
 * this seems to be only for MP4 cover tag
@@ -9,7 +9,7 @@ Subject: [PATCH 4/8] Stub out call to jcodec MP4 post-processing
  1 file changed, 2 insertions(+)
 
 diff --git a/smali_classes7/tj/d.smali b/smali_classes7/tj/d.smali
-index 0f110378..1b4e57a4 100644
+index 0f11037..a55cc30 100644
 --- a/smali_classes7/tj/d.smali
 +++ b/smali_classes7/tj/d.smali
 @@ -12,6 +12,8 @@
@@ -17,10 +17,10 @@ index 0f110378..1b4e57a4 100644
      .end annotation
  
 +    return-void
-+    
++
      :try_start_0
      new-instance v0, Loj/a;
  
 -- 
-2.53.0
+2.43.0
 
